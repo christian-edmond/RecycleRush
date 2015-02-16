@@ -41,8 +41,8 @@ public class OI {
     // button.whenReleased(new ExampleCommand());
 	
 	public OI() {
-		JoystickButton raiseForklift = new JoystickButton(joystick, 11);
-		JoystickButton lowerForklift = new JoystickButton(joystick, 12);
+		JoystickButton raiseForklift = new JoystickButton(joystick, 12);
+		JoystickButton lowerForklift = new JoystickButton(joystick, 11);
 		//We can change these to whileHeld...
 		raiseForklift.whenPressed(new RaiseForklift());
 		lowerForklift.whenPressed(new LowerForklift());
